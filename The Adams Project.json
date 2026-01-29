@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 251,
+    "build": 253,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -364,6 +365,14 @@
         "name": "download_Nero_AI_Image_Upscaler_Photo_Face2.jpeg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Level 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Level 1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -385,6 +394,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
     }
   ],
   "externalEvents": [],
