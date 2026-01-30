@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Intro",
+  "name": "Intro",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -30,15 +30,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 534,
-      "keepRatio": true,
+      "depth": 0,
+      "height": 1080,
       "layer": "",
-      "name": "Heart_testing",
-      "persistentUuid": "290c58cd-c6b8-409b-85f8-7da08f88325e",
-      "width": 516,
-      "x": 584,
-      "y": -8,
+      "name": "NewSprite",
+      "persistentUuid": "fed9998c-962f-41b1-8ec8-f011a41c0eaa",
+      "width": 1920,
+      "x": 0,
+      "y": 2,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,7 +48,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Heart_testing",
+      "name": "NewSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -57,17 +56,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "istockphoto-107217508-612x612_Nero_AI_Image_Upscaler_Photo_Face.jpeg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -83,20 +81,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 35,
-                        "y": 44
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 54,
-                        "y": 44
+                        "x": 1224,
+                        "y": 0
                       },
                       {
-                        "x": 54,
-                        "y": 61
+                        "x": 1224,
+                        "y": 918
                       },
                       {
-                        "x": 35,
-                        "y": 61
+                        "x": 0,
+                        "y": 918
                       }
                     ]
                   ]
@@ -112,7 +110,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Heart_testing"
+        "objectName": "NewSprite"
       }
     ]
   },

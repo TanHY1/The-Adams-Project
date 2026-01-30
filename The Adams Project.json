@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 253,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -367,58 +367,10 @@
         "userAdded": false
       },
       {
-        "file": "Level 1.png",
+        "file": "istockphoto-107217508-612x612_Nero_AI_Image_Upscaler_Photo_Face.jpeg",
         "kind": "image",
         "metadata": "",
-        "name": "Level 1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "unnamed-removebg-preview.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "unnamed-removebg-preview.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "istockphoto-1309894507-612x612-removebg-preview.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "istockphoto-1309894507-612x612-removebg-preview.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "unnamed-removebg-preview (1).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "unnamed-removebg-preview (1).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../../../Downloads/unnamed-removebg-preview (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\..\\..\\Downloads\\unnamed-removebg-preview (2).png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Gemini_Generated_Image_zcylhnzcylhnzcyl.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gemini_Generated_Image_zcylhnzcylhnzcyl.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "unnamed-removebg-preview (2).png",
-        "kind": "image",
-        "metadata": "",
-        "name": "unnamed-removebg-preview (2).png",
+        "name": "istockphoto-107217508-612x612_Nero_AI_Image_Upscaler_Photo_Face.jpeg",
         "smoothed": true,
         "userAdded": false
       }
@@ -445,7 +397,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1"
+      "referenceTo": "/layouts/intro"
     }
   ],
   "externalEvents": [],

@@ -1226,29 +1226,7 @@
           "name": "Index"
         }
       ],
-      "propertiesFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "propertyName": "ShouldCheckHovering"
-          },
-          {
-            "propertyName": "State"
-          },
-          {
-            "propertyName": "TouchId"
-          },
-          {
-            "propertyName": "TouchIsInside"
-          },
-          {
-            "propertyName": "MouseIsInside"
-          },
-          {
-            "propertyName": "Index"
-          }
-        ]
-      }
+      "sharedPropertyDescriptors": []
     }
   ],
   "eventsBasedObjects": [
@@ -2752,31 +2730,6 @@
           "name": "_PropertyMapping"
         }
       ],
-      "propertiesFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "propertyName": "LabelText"
-          },
-          {
-            "folderName": "States",
-            "children": [
-              {
-                "propertyName": "HoveredFadeOutDuration"
-              },
-              {
-                "propertyName": "PressedLabelOffsetY"
-              },
-              {
-                "propertyName": "LabelOffset"
-              }
-            ]
-          },
-          {
-            "propertyName": "_PropertyMapping"
-          }
-        ]
-      },
       "variants": [
         {
           "areaMaxX": 68,

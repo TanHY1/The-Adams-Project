@@ -22,8 +22,7 @@
     "snap": false,
     "zoomFactor": 0.3645833333333333,
     "windowMask": false,
-    "selectedLayer": "",
-    "gameEditorMode": "instances-editor"
+    "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [],
@@ -201,7 +200,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Choos your level",
+      "string": "Choose your level",
       "font": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 100,
@@ -224,7 +223,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Choos your level",
+        "text": "Choose your level",
         "font": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
