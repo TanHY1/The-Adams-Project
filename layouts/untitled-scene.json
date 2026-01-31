@@ -22,29 +22,12 @@
     "snap": false,
     "zoomFactor": 0.3645833333333333,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 534,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Heart_testing",
-      "persistentUuid": "290c58cd-c6b8-409b-85f8-7da08f88325e",
-      "width": 516,
-      "x": 584,
-      "y": -8,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    }
-  ],
+  "instances": [],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
