@@ -511,12 +511,284 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "unnamed-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "return.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Normal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Tips point.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tips point.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Painting",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gemini_Generated_Image_zcylhnzcylhnzcyl2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1472,
+                        "y": 0
+                      },
+                      {
+                        "x": 1472,
+                        "y": 704
+                      },
+                      {
+                        "x": 0,
+                        "y": 704
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ReturnButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "return.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 0
+                      },
+                      {
+                        "x": 800,
+                        "y": 800
+                      },
+                      {
+                        "x": 0,
+                        "y": 800
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CustomCursor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Normal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 89,
+                    "y": 47
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 85,
+                    "y": 42.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 313
+                      },
+                      {
+                        "x": 75,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Tips point.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 129.5,
+                    "y": 50
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 168,
+                    "y": 226.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 313
+                      },
+                      {
+                        "x": 75,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Painting"
+      },
+      {
+        "objectName": "CustomCursor"
+      },
+      {
+        "objectName": "ReturnButton"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -540,9 +812,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-painting"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cursorhoverlogic"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

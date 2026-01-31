@@ -1,0 +1,32 @@
+{
+  "associatedLayout": "Level 1",
+  "name": "CursorHoverLogic",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "CustomCursor",
+            "=",
+            "MouseX()",
+            "=",
+            "MouseY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideCursor"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
