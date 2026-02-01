@@ -735,6 +735,38 @@
         "name": "90830f71-b4ca-40a1-8a84-13fa50a3bead-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "February calendar in Jan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "February calendar in Jan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "L102-Milkyway-Asian-Paints.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "L102-Milkyway-Asian-Paints.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "04db2955-b672-441d-add1-f5fb14247238-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "04db2955-b672-441d-add1-f5fb14247238-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "close-button-outline-style-icon-free-vector-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "close-button-outline-style-icon-free-vector-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1056,6 +1088,11 @@
       "name": "CorrectCodelvl1",
       "type": "string",
       "value": "9371"
+    },
+    {
+      "name": "IsDraggingPencil",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -1098,6 +1135,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1-notes"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-calendar-clues"
     }
   ],
   "externalEvents": [
