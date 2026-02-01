@@ -695,6 +695,46 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "tableviewfromtop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tableviewfromtop.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "floor top virw.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "floor top virw.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "b45c4c062ab8ff4e62e9526248eaf7f6-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b45c4c062ab8ff4e62e9526248eaf7f6-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1e17866e21de6a776e3eea8faade6311.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "1e17866e21de6a776e3eea8faade6311.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "90830f71-b4ca-40a1-8a84-13fa50a3bead-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "90830f71-b4ca-40a1-8a84-13fa50a3bead-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1050,6 +1090,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winlevel1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-book-under-bed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-notes"
     }
   ],
   "externalEvents": [
