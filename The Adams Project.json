@@ -649,6 +649,52 @@
         "name": "fda7d9e5-00d8-45b3-9258-924a25006254-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "4cb810e9-5e7a-4b46-91c2-8100596e1701-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4cb810e9-5e7a-4b46-91c2-8100596e1701-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2290ef62-8ca2-46e5-ab4b-4c008e86c0e9-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2290ef62-8ca2-46e5-ab4b-4c008e86c0e9-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "beep-401570.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "beep-401570.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "successfinish-ui-sound-effect-467873.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "successfinish-ui-sound-effect-467873.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "wrong-47985.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "wrong-47985.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -960,7 +1006,18 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "EnteredCodelvl1",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "CorrectCodelvl1",
+      "type": "string",
+      "value": "9371"
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -989,6 +1046,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1-door"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/winlevel1"
     }
   ],
   "externalEvents": [
