@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 254,
+    "build": 253,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -938,6 +938,150 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Borders/0c2eade7df65b4ae9a40a5e6c012fc5bb8119ff3b961fd1dbdfeab2e6773873b_panel-border-006.png",
           "name": "panel-border-006.png"
         }
+      },
+      {
+        "file": "Gemini_Generated_Image_3u9m583u9m583u9m (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_3u9m583u9m583u9m (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_3u9m583u9m583u9m (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_3u9m583u9m583u9m (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "desktop-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Leftside bookshelf.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Leftside bookshelf.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "table drawer.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "table drawer.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "table.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "table_drawer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "table_drawer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chair-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chair-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "plant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "plant2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "plant3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "plant3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "notebook-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "notebook-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pencil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pencil.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sofa-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sofa-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pencil-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pencil-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pencil-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pencil-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pen.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pen2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pen2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1314,6 +1458,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1-calendar-clues"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2"
     }
   ],
   "externalEvents": [
