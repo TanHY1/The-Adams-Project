@@ -1082,6 +1082,144 @@
         "name": "pen2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "desktop background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "computer-screens.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "computer-screens.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "desktop pin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop pin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "keyboardd typing sound.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "keyboardd typing sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "computer-screens2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "computer-screens2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "adam and his son.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adam and his son.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "adam and his son2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adam and his son2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1462,6 +1600,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-desktop"
     }
   ],
   "externalEvents": [

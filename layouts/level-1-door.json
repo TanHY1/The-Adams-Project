@@ -421,7 +421,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "e435ca3b-7bc8-4a09-b39d-1fb16b46cc95-removebg-preview.png",
+                  "image": "1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -487,7 +487,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "7e9a54bf-e663-4369-9737-429bebdd5e24-removebg-preview.png",
+                  "image": "2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -553,7 +553,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "4571b2a3-714e-40e5-b834-3989f8713cbd-removebg-preview.png",
+                  "image": "3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -619,7 +619,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b9c24f46-4657-4094-b635-9742ce25c82c-removebg-preview.png",
+                  "image": "4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -685,7 +685,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "3bc13bde-b0e9-4a99-874d-5f56229a8d4e-removebg-preview.png",
+                  "image": "5.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -751,7 +751,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "d908bb85-051e-44e6-9b6c-078d732fcf8d-removebg-preview.png",
+                  "image": "6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -817,7 +817,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "891dd67e-c884-4193-a13e-17d8d03f1c97-removebg-preview.png",
+                  "image": "7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -883,7 +883,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "579f5115-bd20-4fe1-9480-f3a6278f6209-removebg-preview.png",
+                  "image": "8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -949,7 +949,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "1f60a02d-fa2c-43d3-8857-b7833ed98c9f-removebg-preview.png",
+                  "image": "9.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1015,7 +1015,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fda7d9e5-00d8-45b3-9258-924a25006254-removebg-preview.png",
+                  "image": "0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

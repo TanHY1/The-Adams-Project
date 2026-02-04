@@ -106,8 +106,8 @@
       "name": "Chair",
       "persistentUuid": "aebc1d93-c059-4a0c-a3ce-340827d31c70",
       "width": 499,
-      "x": 1099,
-      "y": 468,
+      "x": 1083,
+      "y": 464,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -211,6 +211,23 @@
       "x": 579,
       "y": 913,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 62,
+      "keepRatio": true,
+      "layer": "Object",
+      "name": "CustomCursor",
+      "persistentUuid": "b0f6c2a5-452d-4292-9d03-9e52234164f8",
+      "width": 56,
+      "x": 1042,
+      "y": 709,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -946,6 +963,59 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "CustomCursor",
+            "=",
+            "MouseX()",
+            "=",
+            "MouseY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideCursor"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Kevin Macleod  Echoes of Time2.mp3",
+            "yes",
+            "30",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -1018,6 +1088,17 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Pencil",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         }
@@ -1038,53 +1119,110 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "SetXY"
-          },
-          "parameters": [
-            "CustomCursor",
-            "=",
-            "MouseX()",
-            "=",
-            "MouseY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "HideCursor"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "SceneJustBegins"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Desktop",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Left_bookshelf",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Table_drawer",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Plant",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Notebook",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Pen",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Pencil",
+                "",
+                "",
+                ""
+              ]
+            }
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlayMusic"
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
-            "",
-            "Kevin Macleod  Echoes of Time2.mp3",
-            "yes",
-            "30",
-            ""
+            "CustomCursor",
+            "Animation",
+            "=",
+            "\"Default\""
           ]
         }
       ]
