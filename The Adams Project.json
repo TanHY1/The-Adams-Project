@@ -958,7 +958,7 @@
       {
         "file": "desktop-removebg-preview.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"desktop-removebg-preview.png\",\"extension\":\".png\"}",
         "name": "desktop-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
@@ -1220,6 +1220,161 @@
         "name": "adam and his son2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Kenney Pixel.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "frame-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "adam and his son3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adam and his son3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "number0.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "number0.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "desktop wallpaper.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "desktop wallpaper.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "key-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "key-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "drawer opened number 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drawer opened number 2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "drawer opened number3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "drawer opened number3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/frame-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "frame-removebg-preview",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "photoframe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "photoframe.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "photoframe2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "photoframe2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bookshelf file.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bookshelf file.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bookshelf file2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bookshelf file2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bookshelf-file.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bookshelf-file.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "adam case.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "adam case.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "notebook diary.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "notebook diary.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "arrow2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "arrow2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1347,114 +1502,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CustomCursor",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Default",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Normal.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 89,
-                    "y": 47
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 85,
-                    "y": 42.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 75,
-                        "y": 36
-                      },
-                      {
-                        "x": 249,
-                        "y": 36
-                      },
-                      {
-                        "x": 249,
-                        "y": 313
-                      },
-                      {
-                        "x": 75,
-                        "y": 313
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Hover",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Tips point.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 129.5,
-                    "y": 50
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 168,
-                    "y": 226.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 75,
-                        "y": 36
-                      },
-                      {
-                        "x": 249,
-                        "y": 36
-                      },
-                      {
-                        "x": 249,
-                        "y": 313
-                      },
-                      {
-                        "x": 75,
-                        "y": 313
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Level_1_door",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -1511,6 +1558,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CustomCursor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Normal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 313
+                      },
+                      {
+                        "x": 75,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1546,6 +1653,11 @@
       "name": "IsDraggingPencil",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "CorrectCodelvl2",
+      "type": "string",
+      "value": "0214"
     }
   ],
   "layouts": [
@@ -1604,6 +1716,34 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-2-desktop"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-drawer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-notebook"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-bookshelf"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-bookshelf-file"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-photo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-door"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-door-pin"
     }
   ],
   "externalEvents": [

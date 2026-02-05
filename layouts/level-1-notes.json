@@ -77,22 +77,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 69,
-      "layer": "Return button and mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "41abe548-2efa-4899-a080-41891eaf7ea1",
-      "width": 59,
-      "x": 1229,
-      "y": 477,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321_32book_32under_32bed",
-  "name": "Level 1 book under bed",
+  "mangledName": "Level_322_32Bookshelf",
+  "name": "Level 2 Bookshelf",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31928945896901656,
+    "zoomFactor": 0.261677411699215,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -32,14 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1478,
+      "height": 1411,
       "keepRatio": true,
       "layer": "",
-      "name": "FloorFromTop",
-      "persistentUuid": "02f54951-a55f-4af9-8486-bbd18a424544",
-      "width": 2390,
-      "x": -100,
-      "y": -257,
+      "name": "Bookshelf_file",
+      "persistentUuid": "47eb08a3-9dae-426b-8954-5f932db49bee",
+      "width": 2411,
+      "x": -251,
+      "y": -202,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,14 +49,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
+      "height": 405,
       "keepRatio": true,
       "layer": "",
-      "name": "BookClue",
-      "persistentUuid": "6dcc0351-d401-465e-8271-39dbc382f019",
-      "width": 1746,
-      "x": 84,
-      "y": -6,
+      "name": "File",
+      "persistentUuid": "a24146c9-be89-4e3e-82d5-5fd17d13ff3f",
+      "width": 384,
+      "x": 825,
+      "y": 392,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,15 +65,33 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 129,
+      "depth": 1,
+      "height": 125,
+      "keepRatio": true,
       "layer": "",
       "name": "ReturnButton",
-      "persistentUuid": "b4e5f61e-dab1-4904-9016-1c933e5b130b",
-      "width": 129,
-      "x": 15,
-      "y": 18,
+      "persistentUuid": "42a74372-1bcb-4097-b615-6a41459c080b",
+      "width": 137,
+      "x": 55,
+      "y": 54,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CustomCursor",
+      "persistentUuid": "c5cc4d09-04f4-4d88-9030-f7d083c8d7d4",
+      "width": 88,
+      "x": 916,
+      "y": 339,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -83,7 +101,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "FloorFromTop",
+      "name": "Bookshelf_file",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -100,7 +118,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floor top virw.jpg",
+                  "image": "bookshelf file2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -120,16 +138,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1000,
+                        "x": 919,
                         "y": 0
                       },
                       {
-                        "x": 1000,
-                        "y": 1000
+                        "x": 919,
+                        "y": 542
                       },
                       {
                         "x": 0,
-                        "y": 1000
+                        "y": 542
                       }
                     ]
                   ]
@@ -143,7 +161,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "BookClue",
+      "name": "File",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -160,7 +178,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b45c4c062ab8ff4e62e9526248eaf7f6-removebg-preview.png",
+                  "image": "bookshelf-file.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -176,20 +194,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 98,
-                        "y": 56
+                        "x": 0,
+                        "y": 38
                       },
                       {
-                        "x": 510,
-                        "y": 56
+                        "x": 118,
+                        "y": 38
                       },
                       {
-                        "x": 510,
-                        "y": 356
+                        "x": 118,
+                        "y": 116
                       },
                       {
-                        "x": 98,
-                        "y": 356
+                        "x": 0,
+                        "y": 116
                       }
                     ]
                   ]
@@ -205,10 +223,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "FloorFromTop"
+        "objectName": "Bookshelf_file"
       },
       {
-        "objectName": "BookClue"
+        "objectName": "File"
       }
     ]
   },
@@ -219,6 +237,91 @@
         "includeConfig": 0
       },
       "target": "CursorHoverandMusicLogic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "File",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "CustomCursor",
+            "Animation",
+            "=",
+            "\"Hover\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2 Bookshelf file\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "File",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "CustomCursor",
+            "Animation",
+            "=",
+            "\"Default\""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -251,11 +354,16 @@
           },
           "parameters": [
             "",
-            "\"Level 1\"",
+            "\"Level 2\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -286,60 +394,6 @@
           "width": 0
         }
       ],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Return button and mouse",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

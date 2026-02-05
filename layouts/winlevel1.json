@@ -112,22 +112,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 69,
-      "layer": "mouse layer",
-      "name": "CustomCursor",
-      "persistentUuid": "1c7ab09f-a013-408d-b8ca-13929668b863",
-      "width": 59,
-      "x": 1550,
-      "y": 334,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [

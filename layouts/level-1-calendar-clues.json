@@ -64,22 +64,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 69,
-      "layer": "Return button and mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "f32d48c4-e61c-4736-b3bb-7d091dd48aa1",
-      "width": 59,
-      "x": 1785,
-      "y": 467,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 129,
       "layer": "Return button and mouse",
