@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473464,
+    "zoomFactor": 0.3895856273827303,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -218,14 +218,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9491525423728813,
-      "height": 57,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
       "layer": "Cursor Layer",
       "name": "CustomCursor",
       "persistentUuid": "61d00f3c-20d9-430e-90a0-c751ef1e833c",
-      "width": 56,
-      "x": 771,
-      "y": 149,
+      "width": 59,
+      "x": 1011,
+      "y": 481,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -1354,7 +1355,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -1401,7 +1402,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -1448,7 +1449,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -1495,7 +1496,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -1745,7 +1746,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -2091,10 +2092,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

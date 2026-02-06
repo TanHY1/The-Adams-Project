@@ -82,14 +82,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.982456140350877,
-      "height": 57,
+      "depth": 0,
+      "height": 69,
       "layer": "",
       "name": "CustomCursor",
-      "persistentUuid": "b37fad14-b8ab-4ce0-b632-17d5c2258aac",
-      "width": 56,
-      "x": 1225,
-      "y": 164,
+      "persistentUuid": "2355dda6-9bef-4ed8-bc20-84acd86d84c8",
+      "width": 59,
+      "x": 1288,
+      "y": 349,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -190,7 +190,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -303,10 +303,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

@@ -117,13 +117,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 57,
+      "height": 69,
       "layer": "mouse layer",
       "name": "CustomCursor",
-      "persistentUuid": "7ff19e4d-6949-4639-8f26-864f83cdafbe",
-      "width": 56,
-      "x": 1648,
-      "y": 318,
+      "persistentUuid": "1c7ab09f-a013-408d-b8ca-13929668b863",
+      "width": 59,
+      "x": 1550,
+      "y": 334,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -465,7 +465,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -502,7 +502,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -521,18 +521,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Level 2\"",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     }
   ],
   "layers": [
@@ -734,10 +723,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

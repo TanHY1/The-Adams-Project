@@ -82,13 +82,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 57,
-      "layer": "Return button and mouse",
+      "height": 69,
+      "layer": "",
       "name": "CustomCursor",
-      "persistentUuid": "76609eb7-5103-4e0c-8cce-7c92a1c8f7de",
-      "width": 56,
-      "x": 1580,
-      "y": 302,
+      "persistentUuid": "9cf4d667-1b10-4f59-8c88-ba40869daca0",
+      "width": 59,
+      "x": 1356,
+      "y": 144,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -252,7 +252,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -419,10 +419,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

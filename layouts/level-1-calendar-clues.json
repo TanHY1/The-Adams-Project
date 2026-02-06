@@ -49,14 +49,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 974,
+      "height": 1035,
       "layer": "",
       "name": "CalendarClue",
       "persistentUuid": "739e7881-b48d-456f-af69-87336ea637b9",
-      "width": 1396,
-      "x": 321,
-      "y": 62,
+      "width": 1455,
+      "x": 259,
+      "y": 27,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 69,
+      "layer": "Return button and mouse",
+      "name": "CustomCursor",
+      "persistentUuid": "f32d48c4-e61c-4736-b3bb-7d091dd48aa1",
+      "width": 59,
+      "x": 1785,
+      "y": 467,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -73,22 +89,6 @@
       "x": 31,
       "y": 26,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 57,
-      "layer": "Return button and mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "54ee86e6-3051-48bd-8c60-cdddf8355633",
-      "width": 56,
-      "x": 1762,
-      "y": 791,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -251,7 +251,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -418,10 +418,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

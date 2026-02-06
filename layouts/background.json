@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3411856023473449,
+    "zoomFactor": 0.31928945896901634,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -31,13 +31,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1180,
+      "depth": 0,
+      "height": 1080,
       "layer": "",
       "name": "Background",
       "persistentUuid": "2e0ffafc-7139-49a4-aeb3-b336cb8928c2",
-      "width": 2262,
-      "x": -149,
+      "width": 1920,
+      "x": 1,
       "y": -2,
       "zOrder": 1,
       "numberProperties": [],
@@ -89,23 +89,6 @@
       "x": 770,
       "y": 746,
       "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 49,
-      "keepRatio": true,
-      "layer": "",
-      "name": "CustomCursor",
-      "persistentUuid": "70282f39-df00-45bf-81c8-78e556e32ddd",
-      "width": 51,
-      "x": 1426,
-      "y": 629,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -335,13 +318,6 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "CursorHoverandMusicLogic"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -357,7 +333,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -394,7 +370,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -417,8 +393,30 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "Kevin Macleod  Echoes of Time.mp3",
+            "yes",
+            "50",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
