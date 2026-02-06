@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_322_32Bookshelf",
-  "name": "Level 2 Bookshelf",
+  "mangledName": "WinLevel2",
+  "name": "WinLevel2",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.261677411699215,
+    "zoomFactor": 0.26167741169921493,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -31,15 +31,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1411,
+      "depth": 0,
+      "height": 1625,
       "keepRatio": true,
       "layer": "",
-      "name": "Bookshelf_file",
-      "persistentUuid": "47eb08a3-9dae-426b-8954-5f932db49bee",
-      "width": 2411,
-      "x": -251,
-      "y": -202,
+      "name": "WinningScreen",
+      "persistentUuid": "0dce6e3c-8926-49f4-b22f-f5243891b6d4",
+      "width": 2889,
+      "x": -371,
+      "y": -258,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,15 +48,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 405,
+      "depth": 2,
+      "height": 266,
       "keepRatio": true,
       "layer": "",
-      "name": "File",
-      "persistentUuid": "a24146c9-be89-4e3e-82d5-5fd17d13ff3f",
-      "width": 384,
-      "x": 825,
-      "y": 392,
+      "name": "LevelClearedText",
+      "persistentUuid": "674c95f4-b518-4adb-a8d5-90c43f48fc2f",
+      "width": 964,
+      "x": 496,
+      "y": 61,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,14 +66,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 125,
+      "height": 324,
       "keepRatio": true,
       "layer": "",
-      "name": "ReturnButton",
-      "persistentUuid": "42a74372-1bcb-4097-b615-6a41459c080b",
-      "width": 137,
-      "x": 55,
-      "y": 54,
+      "name": "WinningDoctor",
+      "persistentUuid": "535b3d13-a0cf-4b5e-9d8d-459c8f9173f6",
+      "width": 324,
+      "x": 810,
+      "y": 334,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,14 +82,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.6363636363636364,
-      "height": 57,
-      "layer": "Cursor",
-      "name": "CustomCursor",
-      "persistentUuid": "c5cc4d09-04f4-4d88-9030-f7d083c8d7d4",
-      "width": 56,
-      "x": 916,
-      "y": 339,
+      "depth": 2,
+      "height": 184,
+      "keepRatio": true,
+      "layer": "Buttons",
+      "name": "nextlvlbutton",
+      "persistentUuid": "ccd123d4-d903-4e92-bdd7-9c1a123871b9",
+      "width": 370,
+      "x": 1026,
+      "y": 766,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,32 +99,32 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 107,
+      "depth": 2,
+      "height": 188,
       "keepRatio": true,
-      "layer": "Timer",
-      "name": "Timer_icon",
-      "persistentUuid": "f7ce9c31-b6ff-4484-b189-969e22258477",
-      "width": 111,
-      "x": 1777,
-      "y": 49,
-      "zOrder": 25,
+      "layer": "Buttons",
+      "name": "menubutton",
+      "persistentUuid": "dd493fce-60b0-4945-9457-00f29d9212df",
+      "width": 398,
+      "x": 525,
+      "y": 770,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Timer",
-      "name": "Timer",
-      "persistentUuid": "2af21123-bc57-4c21-9a83-deade737dd80",
-      "width": 0,
-      "x": 1919,
-      "y": 67,
-      "zOrder": 23,
+      "customSize": true,
+      "depth": 0,
+      "height": 57,
+      "layer": "mouse layer",
+      "name": "CustomCursor",
+      "persistentUuid": "087e19f6-3462-4b10-af4f-09e57c23a682",
+      "width": 56,
+      "x": 1568,
+      "y": 303,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -133,7 +134,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Bookshelf_file",
+      "name": "WinningScreen",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -150,7 +151,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bookshelf file2.png",
+                  "image": "very-dark-brown-free-solidcolor-background2.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -170,16 +171,16 @@
                         "y": 0
                       },
                       {
-                        "x": 919,
+                        "x": 7680,
                         "y": 0
                       },
                       {
-                        "x": 919,
-                        "y": 542
+                        "x": 7680,
+                        "y": 4320
                       },
                       {
                         "x": 0,
-                        "y": 542
+                        "y": 4320
                       }
                     ]
                   ]
@@ -193,7 +194,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "File",
+      "name": "LevelClearedText",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -210,7 +211,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bookshelf-file.png",
+                  "image": "3629453d-4cd4-44d5-a55c-e1ce1d11f366-removebg-preview.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -226,20 +227,200 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 38
+                        "x": 31,
+                        "y": 47
                       },
                       {
-                        "x": 118,
-                        "y": 38
+                        "x": 657,
+                        "y": 47
                       },
                       {
-                        "x": 118,
-                        "y": 116
+                        "x": 657,
+                        "y": 166
                       },
                       {
-                        "x": 0,
-                        "y": 116
+                        "x": 31,
+                        "y": 166
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "WinningDoctor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pedro-leite-jeferson-gif-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 109,
+                        "y": 47
+                      },
+                      {
+                        "x": 375,
+                        "y": 47
+                      },
+                      {
+                        "x": 375,
+                        "y": 500
+                      },
+                      {
+                        "x": 109,
+                        "y": 500
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "menubutton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "d7907674-9627-4fd6-a1d2-01687b068003-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 180,
+                        "y": 15
+                      },
+                      {
+                        "x": 180,
+                        "y": 79
+                      },
+                      {
+                        "x": 14,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nextlvlbutton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "379cbafe-a03d-4f5f-8ba9-e85fc4126be9-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 167,
+                        "y": 12
+                      },
+                      {
+                        "x": 167,
+                        "y": 79
+                      },
+                      {
+                        "x": 6,
+                        "y": 79
                       }
                     ]
                   ]
@@ -255,10 +436,19 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Bookshelf_file"
+        "objectName": "WinningScreen"
       },
       {
-        "objectName": "File"
+        "objectName": "LevelClearedText"
+      },
+      {
+        "objectName": "WinningDoctor"
+      },
+      {
+        "objectName": "menubutton"
+      },
+      {
+        "objectName": "nextlvlbutton"
       }
     ]
   },
@@ -271,18 +461,11 @@
       "target": "CursorHoverandMusicLogic"
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "TimerLogic"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -294,7 +477,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "File",
+            "menubutton",
             "",
             "",
             ""
@@ -302,24 +485,13 @@
         }
       ],
       "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "CustomCursor",
-            "Animation",
-            "=",
-            "\"Hover\""
-          ]
-        },
         {
           "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"Level 2 Bookshelf file\"",
+            "\"Background\"",
             ""
           ]
         }
@@ -330,52 +502,22 @@
       "conditions": [
         {
           "type": {
-            "inverted": true,
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "File",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "CustomCursor",
-            "Animation",
-            "=",
-            "\"Default\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "ReturnButton",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
             "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "nextlvlbutton",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -391,11 +533,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -476,7 +613,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Timer",
+      "name": "Buttons",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -530,7 +667,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Cursor",
+      "name": "mouse layer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

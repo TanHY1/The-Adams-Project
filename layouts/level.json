@@ -31,14 +31,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 1080,
+      "depth": 1,
+      "height": 1180,
       "layer": "",
       "name": "NewSprite",
       "persistentUuid": "f245f99b-93cf-4e05-b12f-4f3d7923e344",
-      "width": 1920,
-      "x": -2,
-      "y": 2,
+      "width": 2262,
+      "x": -149,
+      "y": -2,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -88,6 +88,23 @@
       "x": 584,
       "y": 239,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "CustomCursor",
+      "persistentUuid": "52efb795-0bab-47d0-9aac-2a169ed18020",
+      "width": 56,
+      "x": 1533,
+      "y": 618,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -253,6 +270,13 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "CursorHoverandMusicLogic"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -283,7 +307,7 @@
           },
           "parameters": [
             "",
-            "\"Intro\"",
+            "\"Level 1\"",
             ""
           ]
         }
@@ -320,7 +344,7 @@
           },
           "parameters": [
             "",
-            "\"Intro\"",
+            "\"Level 2\"",
             ""
           ]
         }
@@ -360,6 +384,60 @@
           "width": 0
         }
       ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cursor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
       "effects": [
         {
           "effectType": "Scene3D::HemisphereLight",

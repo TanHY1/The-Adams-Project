@@ -77,6 +77,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 57,
+      "layer": "Return button and mouse",
+      "name": "CustomCursor",
+      "persistentUuid": "76609eb7-5103-4e0c-8cce-7c92a1c8f7de",
+      "width": 56,
+      "x": 1580,
+      "y": 302,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -403,6 +419,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

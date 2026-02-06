@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2705012603962553,
+    "zoomFactor": 0.6406912462476495,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -164,16 +164,65 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 79,
-      "keepRatio": true,
+      "depth": 0.7999999999999999,
+      "height": 57,
       "layer": "Cursor",
       "name": "CustomCursor",
       "persistentUuid": "5177d6db-6ead-4f6c-b7b8-cb3a700dba4b",
-      "width": 70,
+      "width": 56,
       "x": 1729,
       "y": 624,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 107,
+      "keepRatio": true,
+      "layer": "Timer",
+      "name": "Timer_icon",
+      "persistentUuid": "543d7f9d-ddb1-4284-80ad-59c6564fbe20",
+      "width": 111,
+      "x": 1777,
+      "y": 49,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Timer",
+      "name": "Timer",
+      "persistentUuid": "5338920a-7290-405a-97e9-f47f2c58c9c0",
+      "width": 0,
+      "x": 1919,
+      "y": 67,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 29,
+      "keepRatio": true,
+      "layer": "Object",
+      "name": "Login_button",
+      "persistentUuid": "021487aa-e1ef-46a1-bd26-0ae9bfa690fd",
+      "width": 75,
+      "x": 1230,
+      "y": 408,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -533,6 +582,20 @@
         "lineHeight": 0,
         "color": "255;0;0"
       }
+    },
+    {
+      "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+      "name": "Login_button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Small Light Grey Button",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LabelText": "Login",
+        "PressedLabelOffsetY": 2,
+        "HoveredFadeOutDuration": 0.25
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -558,6 +621,9 @@
       },
       {
         "objectName": "Login_failed"
+      },
+      {
+        "objectName": "Login_button"
       }
     ]
   },
@@ -625,13 +691,24 @@
       "target": "CursorHoverandMusicLogic"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "TimerLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
         {
           "type": {
             "value": "IsCursorOnObject"
@@ -641,15 +718,6 @@
             "",
             "",
             ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
           ]
         }
       ],
@@ -679,13 +747,13 @@
         },
         {
           "type": {
-            "inverted": true,
             "value": "BuiltinCommonInstructions::Or"
           },
           "parameters": [],
           "subInstructions": [
             {
               "type": {
+                "inverted": true,
                 "value": "BuiltinCommonInstructions::CompareStrings"
               },
               "parameters": [
@@ -696,6 +764,7 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "BuiltinCommonInstructions::CompareStrings"
               },
               "parameters": [
@@ -706,6 +775,7 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "BuiltinCommonInstructions::CompareStrings"
               },
               "parameters": [
@@ -785,11 +855,22 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
-            "\"Return\""
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Login_button",
+            "",
+            "",
+            ""
           ]
         },
         {
@@ -811,7 +892,7 @@
               "parameters": [
                 "typedPassword",
                 "=",
-                "CorrectPassword"
+                "\"200814\""
               ]
             }
           ],
@@ -823,6 +904,18 @@
               "parameters": [
                 "",
                 "\"Desktop home screen\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "successfinish-ui-sound-effect-467873.mp3",
+                "",
+                "50",
+                "0.5"
               ]
             }
           ]
@@ -859,6 +952,18 @@
                 "typedPassword",
                 "=",
                 "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "wrong-47985.mp3",
+                "",
+                "30",
+                "0.5"
               ]
             }
           ]
@@ -1032,60 +1137,6 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Desktop home screen",
-      "renderingType": "",
-      "visibility": false,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
       "name": "Login fail",
       "renderingType": "",
       "visibility": true,
@@ -1140,7 +1191,115 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
+      "name": "Desktop home screen",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
       "name": "Cursor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Timer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

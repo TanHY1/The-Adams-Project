@@ -218,15 +218,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 69,
-      "keepRatio": true,
+      "depth": 0.9491525423728813,
+      "height": 57,
       "layer": "Cursor Layer",
       "name": "CustomCursor",
       "persistentUuid": "61d00f3c-20d9-430e-90a0-c751ef1e833c",
-      "width": 59,
-      "x": 1011,
-      "y": 481,
+      "width": 56,
+      "x": 771,
+      "y": 149,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -2092,6 +2091,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

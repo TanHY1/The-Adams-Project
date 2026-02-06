@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_322_32Bookshelf",
-  "name": "Level 2 Bookshelf",
+  "mangledName": "Level_322_32Pin_32hint",
+  "name": "Level 2 Pin hint",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.261677411699215,
+    "zoomFactor": 0.3192894589690163,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,16 +30,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1411,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Bookshelf_file",
-      "persistentUuid": "47eb08a3-9dae-426b-8954-5f932db49bee",
-      "width": 2411,
-      "x": -251,
-      "y": -202,
+      "name": "Background",
+      "persistentUuid": "f1c3d916-c09c-4edb-ba8f-7171998d56c8",
+      "width": 0,
+      "x": -352,
+      "y": -168,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,14 +48,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 405,
+      "height": 838,
       "keepRatio": true,
       "layer": "",
-      "name": "File",
-      "persistentUuid": "a24146c9-be89-4e3e-82d5-5fd17d13ff3f",
-      "width": 384,
-      "x": 825,
-      "y": 392,
+      "name": "Hint",
+      "persistentUuid": "052ca875-8d93-465e-942d-fa3b7f52315e",
+      "width": 974,
+      "x": 484,
+      "y": 154,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,32 +64,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 125,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ReturnButton",
-      "persistentUuid": "42a74372-1bcb-4097-b615-6a41459c080b",
-      "width": 137,
-      "x": 55,
-      "y": 54,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0.6363636363636364,
+      "depth": 0,
       "height": 57,
       "layer": "Cursor",
       "name": "CustomCursor",
-      "persistentUuid": "c5cc4d09-04f4-4d88-9030-f7d083c8d7d4",
+      "persistentUuid": "1dc55720-c257-41d1-ba01-ed25a6d54291",
       "width": 56,
-      "x": 916,
-      "y": 339,
-      "zOrder": 4,
+      "x": 1538,
+      "y": 430,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -103,7 +85,7 @@
       "keepRatio": true,
       "layer": "Timer",
       "name": "Timer_icon",
-      "persistentUuid": "f7ce9c31-b6ff-4484-b189-969e22258477",
+      "persistentUuid": "eeb1e3ed-35c5-48d5-ae59-c4d2c9061d5e",
       "width": 111,
       "x": 1777,
       "y": 49,
@@ -119,11 +101,28 @@
       "keepRatio": true,
       "layer": "Timer",
       "name": "Timer",
-      "persistentUuid": "2af21123-bc57-4c21-9a83-deade737dd80",
+      "persistentUuid": "e6f978a6-50a5-4dac-9813-09c9b104213a",
       "width": 0,
       "x": 1919,
       "y": 67,
       "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 89,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ReturnButton",
+      "persistentUuid": "7d812c83-3d47-44cb-8a1b-52c63b06adf7",
+      "width": 97,
+      "x": 42,
+      "y": 37,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -133,7 +132,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Bookshelf_file",
+      "name": "Background",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -141,7 +140,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -150,7 +149,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bookshelf file2.png",
+                  "image": "steel door bg.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -170,16 +169,16 @@
                         "y": 0
                       },
                       {
-                        "x": 919,
+                        "x": 3500,
                         "y": 0
                       },
                       {
-                        "x": 919,
-                        "y": 542
+                        "x": 3500,
+                        "y": 2625
                       },
                       {
                         "x": 0,
-                        "y": 542
+                        "y": 2625
                       }
                     ]
                   ]
@@ -193,7 +192,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "File",
+      "name": "Hint",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -201,7 +200,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -210,7 +209,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bookshelf-file.png",
+                  "image": "pin hint.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -226,20 +225,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 38
+                        "x": 72,
+                        "y": 32
                       },
                       {
-                        "x": 118,
-                        "y": 38
+                        "x": 477,
+                        "y": 32
                       },
                       {
-                        "x": 118,
-                        "y": 116
+                        "x": 477,
+                        "y": 441
                       },
                       {
-                        "x": 0,
-                        "y": 116
+                        "x": 72,
+                        "y": 441
                       }
                     ]
                   ]
@@ -255,10 +254,10 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Bookshelf_file"
+        "objectName": "Background"
       },
       {
-        "objectName": "File"
+        "objectName": "Hint"
       }
     ]
   },
@@ -268,14 +267,14 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "CursorHoverandMusicLogic"
+      "target": "TimerLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
       "include": {
         "includeConfig": 0
       },
-      "target": "TimerLogic"
+      "target": "CursorHoverandMusicLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -289,75 +288,6 @@
             "\"Left\""
           ]
         },
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "File",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "CustomCursor",
-            "Animation",
-            "=",
-            "\"Hover\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Level 2 Bookshelf file\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "File",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "CustomCursor",
-            "Animation",
-            "=",
-            "\"Default\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
         {
           "type": {
             "value": "IsCursorOnObject"
@@ -368,15 +298,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
         }
       ],
       "actions": [
@@ -386,7 +307,7 @@
           },
           "parameters": [
             "",
-            "\"Level 2\"",
+            "\"Level 2 Door pin\"",
             ""
           ]
         }

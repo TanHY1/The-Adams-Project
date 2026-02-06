@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 253,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1375,6 +1375,104 @@
         "name": "arrow2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "3sec timer bomb.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3sec timer bomb.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "bomb.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bomb.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "bomb.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "bomb.mp4",
+        "userAdded": false
+      },
+      {
+        "file": "timer icon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "timer icon.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "timer icon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "timer icon2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/95c8aec49aac6657a1b1870edcbafe98def8da6ced9ba38486ad54b16b11bd2e_Small Light Grey Button_Hovered.png",
+          "name": "Small Light Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/80613a75f24d5c563b76fe4775c6bd66e8f5050eeaae279a556e41de62a1649d_Small Light Grey Button_Idle.png",
+          "name": "Small Light Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9bd7fdd350ae7a52dbe99d2ff6e0f6226656c6057aafe3c6e034cb6ef6616f4d_Small Light Grey Button_Pressed.png",
+          "name": "Small Light Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "pin hint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pin hint.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1618,6 +1716,123 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "10:00",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 7,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 255,
+        "smoothed": true,
+        "underlined": false,
+        "text": "10:00",
+        "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 1,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bomb",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "bomb.mp4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Timer_icon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "timer icon2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 0
+                      },
+                      {
+                        "x": 488,
+                        "y": 0
+                      },
+                      {
+                        "x": 488,
+                        "y": 512
+                      },
+                      {
+                        "x": 24,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1630,10 +1845,19 @@
         "objectName": "CustomCursor"
       },
       {
+        "objectName": "Timer_icon"
+      },
+      {
         "objectName": "ReturnButton"
       },
       {
         "objectName": "Level_1_door"
+      },
+      {
+        "objectName": "Timer"
+      },
+      {
+        "objectName": "Bomb"
       }
     ]
   },
@@ -1658,6 +1882,11 @@
       "name": "CorrectCodelvl2",
       "type": "string",
       "value": "0214"
+    },
+    {
+      "name": "GlobalTimer",
+      "type": "number",
+      "value": 600
     }
   ],
   "layouts": [
@@ -1692,6 +1921,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winlevel1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/winlevel2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1744,12 +1977,24 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-2-door-pin"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-2-pin-hint"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tobe-continue-after-lvl2"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/cursorhoverandmusiclogic"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/timerlogic"
     }
   ],
   "eventsFunctionsExtensions": [
