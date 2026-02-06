@@ -4,7 +4,28 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "IsTimerRunning",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "GlobalTimer",
+            ">",
+            "0"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -15,13 +36,7 @@
             "-",
             "TimeDelta()"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -71,7 +86,7 @@
           "parameters": [
             "GlobalTimer",
             "<",
-            "60"
+            "10"
           ]
         }
       ],
@@ -108,138 +123,22 @@
           },
           "parameters": [
             "GlobalTimer",
-            "<",
-            "10"
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\"",
-                "<=",
-                "0.2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "Timer",
-                "\"255;0;0\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\"",
-                ">",
-                "0.2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextObject::ChangeColor"
-              },
-              "parameters": [
-                "Timer",
-                "\"255;255;255\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\"",
-                ">=",
-                "0.4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Flicker\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "GlobalTimer",
             "<=",
-            "3"
+            "4"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundOnChannel"
           },
           "parameters": [
             "",
             "3sec timer bomb.mp3",
-            "",
-            "70",
+            "1",
+            "7",
+            "50",
             ""
           ]
         }
@@ -268,14 +167,21 @@
       "actions": [
         {
           "type": {
-            "value": "PlaySound"
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "IsTimerRunning",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopMusicChannel"
           },
           "parameters": [
             "",
-            "bomb.mp3",
-            "",
-            "70",
-            ""
+            "1"
           ]
         },
         {
@@ -285,6 +191,18 @@
           "parameters": [
             "",
             "\"Bomb\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "bomb.mp3",
+            "",
+            "50",
+            ""
           ]
         },
         {
