@@ -150,14 +150,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 977,
+      "height": 900,
       "keepRatio": true,
       "layer": "Object",
       "name": "Left_bookshelf",
       "persistentUuid": "8551ba69-55c3-4737-8240-499ee85863c2",
       "width": 393,
       "x": -14,
-      "y": 64,
+      "y": 141,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -379,6 +379,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 122,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "Home_Button",
+      "persistentUuid": "934358e6-2989-492c-8655-cad0614f4b4d",
+      "width": 145,
+      "x": 22,
+      "y": 23,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -504,7 +521,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Left_bookshelf",
       "type": "Sprite",
@@ -543,12 +560,12 @@
                         "y": 12
                       },
                       {
-                        "x": 214,
-                        "y": 12
+                        "x": 216.5,
+                        "y": 131
                       },
                       {
-                        "x": 214,
-                        "y": 704
+                        "x": 214.5,
+                        "y": 591.5
                       },
                       {
                         "x": 0,
@@ -1406,6 +1423,43 @@
         "includeConfig": 0
       },
       "target": "TimerLogic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Home_Button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Background\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

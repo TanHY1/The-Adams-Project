@@ -159,7 +159,7 @@
       "width": 115,
       "x": 1103,
       "y": 694,
-      "zOrder": 8,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -261,6 +261,23 @@
       "x": 1119,
       "y": 63,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "keepRatio": true,
+      "layer": "Cursor Layer",
+      "name": "Home_Button",
+      "persistentUuid": "55d359ad-54d8-44dd-8a8d-51052226765d",
+      "width": 128,
+      "x": 39,
+      "y": 19,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1532,6 +1549,53 @@
           "parameters": [
             "",
             "\"Level 1 notes\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "IsDraggingPencil",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Home_Button",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Background\"",
             ""
           ]
         }
