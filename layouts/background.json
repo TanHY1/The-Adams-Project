@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31928945896901634,
+    "zoomFactor": 0.3411856023473449,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,6 +30,22 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1180,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "2e0ffafc-7139-49a4-aeb3-b336cb8928c2",
+      "width": 2262,
+      "x": -149,
+      "y": -2,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -37,8 +53,8 @@
       "name": "Tilte",
       "persistentUuid": "66b444f9-e8ad-4dac-b5f4-297d9674d4c4",
       "width": 0,
-      "x": 531,
-      "y": 305,
+      "x": 557,
+      "y": 236,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -54,8 +70,8 @@
       "name": "start",
       "persistentUuid": "978fe026-0e81-4f8a-87a7-b4e863fa4120",
       "width": 389,
-      "x": 795,
-      "y": 561,
+      "x": 770,
+      "y": 570,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -70,8 +86,8 @@
       "name": "Level2",
       "persistentUuid": "f2dbfcc4-19a5-438b-8ad1-69888545e755",
       "width": 389,
-      "x": 792,
-      "y": 740,
+      "x": 770,
+      "y": 746,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -81,14 +97,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1518,
+      "height": 49,
+      "keepRatio": true,
       "layer": "",
-      "name": "Background_actual",
-      "persistentUuid": "eaf216f2-ae2b-4fba-b4ca-2c10f15ea404",
-      "width": 2466,
-      "x": -272,
-      "y": -184,
-      "zOrder": 1,
+      "name": "CustomCursor",
+      "persistentUuid": "70282f39-df00-45bf-81c8-78e556e32ddd",
+      "width": 51,
+      "x": 1426,
+      "y": 629,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -288,66 +305,6 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Background_actual",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "download_Nero_AI_Image_Upscaler_Photo_Face3.jpeg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 600,
-                        "y": 0
-                      },
-                      {
-                        "x": 600,
-                        "y": 336
-                      },
-                      {
-                        "x": 0,
-                        "y": 336
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -355,9 +312,6 @@
     "children": [
       {
         "objectName": "Background"
-      },
-      {
-        "objectName": "Background_actual"
       },
       {
         "objectName": "Tilte"
@@ -381,6 +335,13 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "CursorHoverandMusicLogic"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -396,7 +357,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -433,7 +394,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -456,30 +417,8 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneJustBegins"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "Kevin Macleod  Echoes of Time.mp3",
-            "yes",
-            "50",
-            "1"
-          ]
-        }
-      ]
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

@@ -65,22 +65,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 69,
-      "layer": "mouse layer",
-      "name": "CustomCursor",
-      "persistentUuid": "1c7ab09f-a013-408d-b8ca-13929668b863",
-      "width": 59,
-      "x": 1550,
-      "y": 334,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 349,
       "keepRatio": true,
@@ -125,6 +109,22 @@
       "x": 1108,
       "y": 803,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 57,
+      "layer": "mouse layer",
+      "name": "CustomCursor",
+      "persistentUuid": "3eff308c-33f5-4220-8734-e4d4b0b19a48",
+      "width": 56,
+      "x": 1636,
+      "y": 303,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -465,7 +465,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -502,7 +502,7 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
@@ -521,7 +521,38 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalTimer",
+            "=",
+            "600"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "IsTimerRunning",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -723,6 +754,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

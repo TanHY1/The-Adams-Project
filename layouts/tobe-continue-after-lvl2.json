@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321_32book_32under_32bed",
-  "name": "Level 1 book under bed",
+  "mangledName": "Tobe_32continue_32_40after_32lvl2_41",
+  "name": "Tobe continue (after lvl2)",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31928945896901656,
+    "zoomFactor": 0.3411856023473448,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -30,16 +30,15 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1478,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "FloorFromTop",
-      "persistentUuid": "02f54951-a55f-4af9-8486-bbd18a424544",
-      "width": 2390,
-      "x": -100,
-      "y": -257,
+      "name": "BLack_background",
+      "persistentUuid": "b05903ca-da1e-4b01-9ecc-46702464642c",
+      "width": 0,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -49,30 +48,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
+      "height": 324,
       "layer": "",
-      "name": "BookClue",
-      "persistentUuid": "6dcc0351-d401-465e-8271-39dbc382f019",
-      "width": 1746,
-      "x": 84,
-      "y": -6,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 129,
-      "layer": "",
-      "name": "ReturnButton",
-      "persistentUuid": "b4e5f61e-dab1-4904-9016-1c933e5b130b",
-      "width": 129,
-      "x": 15,
-      "y": 18,
+      "name": "character",
+      "persistentUuid": "d3716989-f69d-4346-a16d-fe0c3120e27e",
+      "width": 324,
+      "x": 824,
+      "y": 451,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -82,14 +64,48 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 57,
-      "layer": "Return button and mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "76609eb7-5103-4e0c-8cce-7c92a1c8f7de",
-      "width": 56,
-      "x": 1580,
-      "y": 302,
+      "height": 188,
+      "layer": "",
+      "name": "MainMenu",
+      "persistentUuid": "8a984700-a9d5-44a2-8970-7869c0967871",
+      "width": 398,
+      "x": 785,
+      "y": 809,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 313,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ToBeContinue",
+      "persistentUuid": "85de0c4c-9bdf-4ad9-973e-064774465bee",
+      "width": 1053,
+      "x": 463,
+      "y": 139,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "CustomCursor",
+      "persistentUuid": "f628071a-cc49-4d0c-986f-cf53466d526e",
+      "width": 54,
+      "x": 1449,
+      "y": 476,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,7 +115,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "FloorFromTop",
+      "name": "BLack_background",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -107,7 +123,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -116,7 +132,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floor top virw.jpg",
+                  "image": "very-dark-brown-free-solidcolor-background2.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -136,16 +152,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1000,
+                        "x": 7680,
                         "y": 0
                       },
                       {
-                        "x": 1000,
-                        "y": 1000
+                        "x": 7680,
+                        "y": 4320
                       },
                       {
                         "x": 0,
-                        "y": 1000
+                        "y": 4320
                       }
                     ]
                   ]
@@ -159,7 +175,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "BookClue",
+      "name": "character",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -167,7 +183,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -176,7 +192,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "b45c4c062ab8ff4e62e9526248eaf7f6-removebg-preview.png",
+                  "image": "pedro-leite-jeferson-gif-removebg-preview.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -192,20 +208,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 98,
-                        "y": 56
+                        "x": 109,
+                        "y": 47
                       },
                       {
-                        "x": 510,
-                        "y": 56
+                        "x": 375,
+                        "y": 47
                       },
                       {
-                        "x": 510,
-                        "y": 356
+                        "x": 375,
+                        "y": 500
                       },
                       {
-                        "x": 98,
-                        "y": 356
+                        "x": 109,
+                        "y": 500
                       }
                     ]
                   ]
@@ -215,16 +231,125 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MainMenu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "d7907674-9627-4fd6-a1d2-01687b068003-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 15
+                      },
+                      {
+                        "x": 180,
+                        "y": 15
+                      },
+                      {
+                        "x": 180,
+                        "y": 79
+                      },
+                      {
+                        "x": 14,
+                        "y": 79
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ToBeContinue",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level cleared!\nTo be continued...",
+      "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+      "textAlignment": "center",
+      "characterSize": 100,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Level cleared!\nTo be continued...",
+        "font": "ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "FloorFromTop"
+        "objectName": "BLack_background"
       },
       {
-        "objectName": "BookClue"
+        "objectName": "ToBeContinue"
+      },
+      {
+        "objectName": "character"
+      },
+      {
+        "objectName": "MainMenu"
       }
     ]
   },
@@ -241,22 +366,22 @@
       "conditions": [
         {
           "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "ReturnButton",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
             "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "MainMenu",
+            "",
+            "",
+            ""
           ]
         }
       ],
@@ -267,11 +392,16 @@
           },
           "parameters": [
             "",
-            "\"Level 1\"",
+            "\"Background\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -352,7 +482,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Return button and mouse",
+      "name": "Cursor",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321_32Door",
-  "name": "Level 1 Door",
+  "mangledName": "Level_322_32Door_32pin",
+  "name": "Level 2 Door pin",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,44 +20,44 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23689563725446605,
+    "zoomFactor": 0.27050126039625516,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [
     {
-      "name": "Lvl1keypadbuttons",
+      "name": "Lvl2KeypadNo",
       "objects": [
         {
-          "name": "Numpad1"
+          "name": "no1"
         },
         {
-          "name": "Numpad2"
+          "name": "no2"
         },
         {
-          "name": "Numpad3"
+          "name": "no3"
         },
         {
-          "name": "Numpad4"
+          "name": "no4"
         },
         {
-          "name": "Numpad5"
+          "name": "no5"
         },
         {
-          "name": "Numpad6"
+          "name": "no6"
         },
         {
-          "name": "Numpad7"
+          "name": "no7"
         },
         {
-          "name": "Numpad8"
+          "name": "no8"
         },
         {
-          "name": "Numpad9"
+          "name": "no9"
         },
         {
-          "name": "Numpad0"
+          "name": "no0"
         }
       ]
     }
@@ -67,15 +67,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 40,
-      "height": 1287,
+      "depth": 1,
+      "height": 1085,
       "keepRatio": true,
       "layer": "",
-      "name": "Steel_door_bg",
-      "persistentUuid": "053bf847-8c0d-4759-b219-80ae94a3d02b",
-      "width": 2193,
-      "x": -33,
-      "y": -120,
+      "name": "Wall",
+      "persistentUuid": "05e69aef-a1e9-477c-9a6d-39f504de4852",
+      "width": 2240,
+      "x": -1,
+      "y": -3,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,14 +85,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1281,
+      "height": 1275,
       "keepRatio": true,
-      "layer": "Casing and Numbers",
-      "name": "Steel_door_black_casing",
-      "persistentUuid": "a8855385-6bc4-422a-8f2f-27531a419e56",
-      "width": 993,
-      "x": 548,
-      "y": -70,
+      "layer": "Pin",
+      "name": "Pin_background",
+      "persistentUuid": "082b53ba-8ed2-449f-b85c-1e5b00ab5e13",
+      "width": 992,
+      "x": 554,
+      "y": -48,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -100,15 +100,15 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 129,
-      "layer": "Return button",
-      "name": "ReturnButton",
-      "persistentUuid": "c7eecfee-d54c-480e-9e15-deabd0e8e8bb",
-      "width": 129,
-      "x": 28,
-      "y": 22,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Pin",
+      "name": "no1",
+      "persistentUuid": "c84688fb-b173-4350-a0a9-9ea7eb391dc3",
+      "width": 0,
+      "x": 731,
+      "y": 195,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -119,12 +119,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad1",
-      "persistentUuid": "65ee702a-bbfb-4311-a444-2a5692de9e08",
+      "layer": "Pin",
+      "name": "no2",
+      "persistentUuid": "09b4a1ee-cbca-4f34-84d4-32ac093a8e5d",
       "width": 0,
-      "x": 744,
-      "y": 190,
+      "x": 935,
+      "y": 195,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -135,12 +135,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad2",
-      "persistentUuid": "f4c5ecea-6f30-4482-a935-84925e76977e",
+      "layer": "Pin",
+      "name": "no3",
+      "persistentUuid": "174bd84a-490a-44c3-9d11-12d2e70c27e5",
       "width": 0,
-      "x": 923,
-      "y": 191,
+      "x": 1137,
+      "y": 195,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,12 +151,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad3",
-      "persistentUuid": "65e9715c-54b0-4f52-82a7-b42abd057682",
+      "layer": "Pin",
+      "name": "no4",
+      "persistentUuid": "95f4128d-16cf-430a-96cc-bcdc2dadd566",
       "width": 0,
-      "x": 1108,
-      "y": 189,
+      "x": 731,
+      "y": 392,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -167,12 +167,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad4",
-      "persistentUuid": "ad56d642-7a6c-4a79-bc46-38aae0c1c1d3",
+      "layer": "Pin",
+      "name": "no5",
+      "persistentUuid": "1084f5d4-1be8-4f0c-b73a-fe598665c53b",
       "width": 0,
-      "x": 745,
-      "y": 386,
+      "x": 935,
+      "y": 392,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -183,11 +183,11 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad5",
-      "persistentUuid": "3a39ab1e-1a62-4e6a-a566-d403bd0b1c33",
+      "layer": "Pin",
+      "name": "no6",
+      "persistentUuid": "a2dc99d0-7931-474a-a078-b88178c8a89a",
       "width": 0,
-      "x": 925,
+      "x": 1137,
       "y": 392,
       "zOrder": 8,
       "numberProperties": [],
@@ -199,12 +199,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad6",
-      "persistentUuid": "b222d378-ee8e-4077-9717-03932a4c2da2",
+      "layer": "Pin",
+      "name": "no7",
+      "persistentUuid": "14c557ad-2057-466c-8c6d-eac6ca47399a",
       "width": 0,
-      "x": 1108,
-      "y": 386,
+      "x": 731,
+      "y": 592,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -215,12 +215,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad7",
-      "persistentUuid": "1525895f-ec23-450e-a62d-b8def7cba622",
+      "layer": "Pin",
+      "name": "no8",
+      "persistentUuid": "b738b234-6b71-48bb-bb1b-1672c7a97a1f",
       "width": 0,
-      "x": 747,
-      "y": 580,
+      "x": 935,
+      "y": 592,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,12 +231,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad8",
-      "persistentUuid": "ba72087d-f872-4732-b711-13e7b285fad3",
+      "layer": "Pin",
+      "name": "no9",
+      "persistentUuid": "6551e3e6-1b11-488f-bb25-ce70105f0069",
       "width": 0,
-      "x": 928,
-      "y": 577,
+      "x": 1135,
+      "y": 592,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,12 +247,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad9",
-      "persistentUuid": "cff867da-f68c-4d9e-b3e0-f43a92b0bcf4",
+      "layer": "Pin",
+      "name": "tick",
+      "persistentUuid": "70c2c075-175b-4e03-ad9e-a7582506885e",
       "width": 0,
-      "x": 1113,
-      "y": 582,
+      "x": 1135,
+      "y": 787,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
@@ -263,12 +263,12 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "Numpad0",
-      "persistentUuid": "105d79a3-0d48-4c5b-b905-a25aeeece6e0",
+      "layer": "Pin",
+      "name": "no0",
+      "persistentUuid": "d990d782-5525-4e51-8b17-dd7eeef53201",
       "width": 0,
-      "x": 933,
-      "y": 766,
+      "x": 935,
+      "y": 787,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,13 +279,64 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "NumpadReset",
-      "persistentUuid": "70e92d34-aa4b-48c2-af74-8f0afb36ab6a",
+      "layer": "Pin",
+      "name": "reset",
+      "persistentUuid": "04e3180a-863a-4d6f-a33f-6f30f22b2269",
       "width": 0,
-      "x": 751,
-      "y": 766,
+      "x": 731,
+      "y": 787,
       "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "ReturnButton",
+      "persistentUuid": "bf7ce4b9-5590-42c8-b6b3-eb5c0e16d6c7",
+      "width": 122,
+      "x": 37,
+      "y": 35,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 57,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "CustomCursor",
+      "persistentUuid": "45a9024b-baa7-4542-91af-51cab4cb09b4",
+      "width": 56,
+      "x": 1545,
+      "y": 501,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 107,
+      "keepRatio": true,
+      "layer": "Timer",
+      "name": "Timer_icon",
+      "persistentUuid": "66dd5cf4-0ff4-49d1-9d73-e8374226b45e",
+      "width": 111,
+      "x": 1777,
+      "y": 49,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -295,29 +346,29 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Numpad numbers",
-      "name": "NumpadConfirm",
-      "persistentUuid": "e914e11c-1898-4670-bd2a-5f7da86e7162",
+      "layer": "Timer",
+      "name": "Timer",
+      "persistentUuid": "fbb2da7a-7baf-4e5b-b4f5-5a32d0037d52",
       "width": 0,
-      "x": 1116,
-      "y": 766,
-      "zOrder": 15,
+      "x": 1919,
+      "y": 67,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0.9655172413793104,
-      "height": 57,
-      "layer": "Mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "f7fe9dae-e2a8-4352-9a89-daa8ca349f58",
-      "width": 56,
-      "x": 1680,
-      "y": 336,
-      "zOrder": 16,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Bomb",
+      "name": "Bomb",
+      "persistentUuid": "c6492657-dc39-4f3c-a053-5839caa13025",
+      "width": 0,
+      "x": -290,
+      "y": -151,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -325,20 +376,9 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Steel_door_bg",
-      "texture": "steel door bg.jpg",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Steel_door_black_casing",
+      "name": "Wall",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -346,7 +386,67 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "steel door bg.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3500,
+                        "y": 0
+                      },
+                      {
+                        "x": 3500,
+                        "y": 2625
+                      },
+                      {
+                        "x": 0,
+                        "y": 2625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Pin_background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -398,7 +498,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad1",
+      "name": "no1",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -412,7 +512,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -464,7 +564,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad2",
+      "name": "no2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -478,7 +578,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -530,7 +630,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad3",
+      "name": "no3",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -544,7 +644,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -596,7 +696,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad4",
+      "name": "no4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -610,7 +710,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -662,7 +762,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad5",
+      "name": "no5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -676,7 +776,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -728,7 +828,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad6",
+      "name": "no6",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -742,7 +842,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -794,7 +894,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad7",
+      "name": "no7",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -808,7 +908,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -860,7 +960,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad8",
+      "name": "no8",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -874,7 +974,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -926,7 +1026,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad9",
+      "name": "no9",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -940,7 +1040,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -992,7 +1092,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Numpad0",
+      "name": "no0",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1006,7 +1106,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1058,7 +1158,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NumpadConfirm",
+      "name": "tick",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1066,7 +1166,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1118,7 +1218,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NumpadReset",
+      "name": "reset",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1126,7 +1226,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1180,46 +1280,46 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Steel_door_bg"
+        "objectName": "Wall"
       },
       {
-        "objectName": "Steel_door_black_casing"
+        "objectName": "Pin_background"
       },
       {
-        "objectName": "Numpad1"
+        "objectName": "no1"
       },
       {
-        "objectName": "Numpad2"
+        "objectName": "no2"
       },
       {
-        "objectName": "Numpad3"
+        "objectName": "no3"
       },
       {
-        "objectName": "Numpad4"
+        "objectName": "no4"
       },
       {
-        "objectName": "Numpad5"
+        "objectName": "no5"
       },
       {
-        "objectName": "Numpad6"
+        "objectName": "no6"
       },
       {
-        "objectName": "Numpad7"
+        "objectName": "no7"
       },
       {
-        "objectName": "Numpad8"
+        "objectName": "no8"
       },
       {
-        "objectName": "Numpad9"
+        "objectName": "no9"
       },
       {
-        "objectName": "Numpad0"
+        "objectName": "no0"
       },
       {
-        "objectName": "NumpadConfirm"
+        "objectName": "tick"
       },
       {
-        "objectName": "NumpadReset"
+        "objectName": "reset"
       }
     ]
   },
@@ -1257,20 +1357,24 @@
       "target": "CursorHoverandMusicLogic"
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
       },
-      "comment": "Return logic"
+      "target": "TimerLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
         {
           "type": {
             "value": "IsCursorOnObject"
@@ -1281,21 +1385,6 @@
             "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
@@ -1304,39 +1393,16 @@
             "value": "Scene"
           },
           "parameters": [
-            "EnteredCodelvl1",
-            "\"Level 1\"",
+            "",
+            "\"Level 2 Door\"",
             ""
           ]
         }
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Keypad Logic"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "Lvl1keypadbuttons",
-            "",
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "MouseButtonFromTextReleased"
@@ -1344,6 +1410,17 @@
           "parameters": [
             "",
             "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Lvl2KeypadNo",
+            "",
+            "",
+            ""
           ]
         },
         {
@@ -1361,7 +1438,7 @@
           "parameters": [
             "EnteredCodelvl1",
             "+",
-            "Lvl1keypadbuttons.VariableString(Value)"
+            "Lvl2KeypadNo.VariableString(Value)"
           ]
         },
         {
@@ -1383,22 +1460,22 @@
       "conditions": [
         {
           "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "NumpadReset",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
             "",
             "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "reset",
+            "",
+            "",
+            ""
           ]
         },
         {
@@ -1438,17 +1515,6 @@
       "conditions": [
         {
           "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "NumpadConfirm",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "MouseButtonFromTextReleased"
           },
           "parameters": [
@@ -1458,12 +1524,23 @@
         },
         {
           "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "tick",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "StringVariable"
           },
           "parameters": [
             "EnteredCodelvl1",
             "=",
-            "CorrectCodelvl1"
+            "CorrectCodelvl2"
           ]
         },
         {
@@ -1485,23 +1562,31 @@
             "50",
             "0.5"
           ]
+        },
+        {
+          "type": {
+            "value": "PauseObjectTimer"
+          },
+          "parameters": [
+            "Timer",
+            "\"time\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Tobe continue (after lvl2)\"",
+            ""
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "IsCursorOnObject"
-          },
-          "parameters": [
-            "NumpadConfirm",
-            "",
-            "",
-            ""
-          ]
-        },
         {
           "type": {
             "value": "MouseButtonFromTextReleased"
@@ -1513,12 +1598,23 @@
         },
         {
           "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "tick",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "StringVariable"
           },
           "parameters": [
             "EnteredCodelvl1",
             "!=",
-            "CorrectCodelvl1"
+            "CorrectCodelvl2"
           ]
         },
         {
@@ -1549,6 +1645,16 @@
             "",
             "30",
             "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "GlobalTimer",
+            "-",
+            "5"
           ]
         }
       ]
@@ -1637,61 +1743,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Casing and Numbers",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Ambient Hemisphere Light",
-          "doubleParameters": {
-            "elevation": 40,
-            "intensity": 0.33,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "groundColor": "127;127;127",
-            "skyColor": "255;255;255",
-            "top": "Z+"
-          },
-          "booleanParameters": {}
-        },
-        {
-          "effectType": "Scene3D::DirectionalLight",
-          "name": "3D Sun Light",
-          "doubleParameters": {
-            "distanceFromCamera": 1500,
-            "elevation": 40,
-            "frustumSize": 4000,
-            "intensity": 0.75,
-            "minimumShadowBias": 0,
-            "rotation": 300
-          },
-          "stringParameters": {
-            "color": "255;255;255",
-            "shadowQuality": "medium",
-            "top": "Z+"
-          },
-          "booleanParameters": {
-            "isCastingShadow": true
-          }
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "Return button",
+      "name": "Pin",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1745,7 +1797,61 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Numpad numbers",
+      "name": "Bomb",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cursor",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1799,7 +1905,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Mouse",
+      "name": "Timer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

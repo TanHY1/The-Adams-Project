@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321_32book_32under_32bed",
-  "name": "Level 1 book under bed",
+  "mangledName": "Level_322_32Bookshelf_32file",
+  "name": "Level 2 Bookshelf file",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31928945896901656,
+    "zoomFactor": 0.25314140012986214,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -32,14 +32,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1478,
+      "height": 1227,
       "keepRatio": true,
       "layer": "",
-      "name": "FloorFromTop",
-      "persistentUuid": "02f54951-a55f-4af9-8486-bbd18a424544",
-      "width": 2390,
-      "x": -100,
-      "y": -257,
+      "name": "File",
+      "persistentUuid": "b9a891cb-974c-40e9-8ada-56d43b1a1189",
+      "width": 2125,
+      "x": -20,
+      "y": 2,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -48,15 +48,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 1088,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BookClue",
-      "persistentUuid": "6dcc0351-d401-465e-8271-39dbc382f019",
-      "width": 1746,
-      "x": 84,
-      "y": -6,
+      "depth": 0.7466666666666666,
+      "height": 57,
+      "layer": "Cursor",
+      "name": "CustomCursor",
+      "persistentUuid": "2ecd0eff-700d-448a-87eb-e81ad6d9afc5",
+      "width": 56,
+      "x": 1507,
+      "y": 405,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,14 +64,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 129,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
       "layer": "",
       "name": "ReturnButton",
-      "persistentUuid": "b4e5f61e-dab1-4904-9016-1c933e5b130b",
-      "width": 129,
-      "x": 15,
-      "y": 18,
+      "persistentUuid": "94c6e372-9e7f-4831-a19c-038b177e8a26",
+      "width": 139,
+      "x": 53,
+      "y": 52,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,16 +80,49 @@
     },
     {
       "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Timer",
+      "name": "Timer",
+      "persistentUuid": "23832042-2f44-456c-b843-2dd0da8b07eb",
+      "width": 0,
+      "x": 1919,
+      "y": 67,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 57,
-      "layer": "Return button and mouse",
-      "name": "CustomCursor",
-      "persistentUuid": "76609eb7-5103-4e0c-8cce-7c92a1c8f7de",
-      "width": 56,
-      "x": 1580,
-      "y": 302,
-      "zOrder": 4,
+      "depth": 1,
+      "height": 107,
+      "keepRatio": true,
+      "layer": "Timer",
+      "name": "Timer_icon",
+      "persistentUuid": "f58147df-c182-4efe-83e0-c354a01c7ed8",
+      "width": 111,
+      "x": 1777,
+      "y": 49,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Bomb",
+      "name": "Bomb",
+      "persistentUuid": "835b862d-8976-42fd-bdd7-182d58c836c4",
+      "width": 0,
+      "x": -290,
+      "y": -151,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,7 +132,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "FloorFromTop",
+      "name": "File",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -116,7 +149,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "floor top virw.jpg",
+                  "image": "adam case.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -136,76 +169,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1000,
+                        "x": 2752,
                         "y": 0
                       },
                       {
-                        "x": 1000,
-                        "y": 1000
+                        "x": 2752,
+                        "y": 1536
                       },
                       {
                         "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BookClue",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "b45c4c062ab8ff4e62e9526248eaf7f6-removebg-preview.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 98,
-                        "y": 56
-                      },
-                      {
-                        "x": 510,
-                        "y": 56
-                      },
-                      {
-                        "x": 510,
-                        "y": 356
-                      },
-                      {
-                        "x": 98,
-                        "y": 356
+                        "y": 1536
                       }
                     ]
                   ]
@@ -221,10 +194,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "FloorFromTop"
-      },
-      {
-        "objectName": "BookClue"
+        "objectName": "File"
       }
     ]
   },
@@ -235,6 +205,13 @@
         "includeConfig": 0
       },
       "target": "CursorHoverandMusicLogic"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "TimerLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -267,11 +244,16 @@
           },
           "parameters": [
             "",
-            "\"Level 1\"",
+            "\"Level 2 Bookshelf\"",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -352,7 +334,115 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Return button and mouse",
+      "name": "Bomb",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cursor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Timer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
