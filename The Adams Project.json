@@ -1224,6 +1224,14 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "download_Nero_AI_Image_Upscaler_Photo_Face3.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "download_Nero_AI_Image_Upscaler_Photo_Face3.jpeg",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },

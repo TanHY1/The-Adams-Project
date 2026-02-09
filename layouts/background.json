@@ -30,22 +30,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 1080,
-      "layer": "",
-      "name": "Background",
-      "persistentUuid": "2e0ffafc-7139-49a4-aeb3-b336cb8928c2",
-      "width": 1920,
-      "x": 1,
-      "y": -2,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -53,8 +37,8 @@
       "name": "Tilte",
       "persistentUuid": "66b444f9-e8ad-4dac-b5f4-297d9674d4c4",
       "width": 0,
-      "x": 557,
-      "y": 236,
+      "x": 531,
+      "y": 305,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -70,8 +54,8 @@
       "name": "start",
       "persistentUuid": "978fe026-0e81-4f8a-87a7-b4e863fa4120",
       "width": 389,
-      "x": 770,
-      "y": 570,
+      "x": 795,
+      "y": 561,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -86,9 +70,25 @@
       "name": "Level2",
       "persistentUuid": "f2dbfcc4-19a5-438b-8ad1-69888545e755",
       "width": 389,
-      "x": 770,
-      "y": 746,
+      "x": 792,
+      "y": 740,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1518,
+      "layer": "",
+      "name": "Background_actual",
+      "persistentUuid": "eaf216f2-ae2b-4fba-b4ca-2c10f15ea404",
+      "width": 2466,
+      "x": -272,
+      "y": -184,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -288,6 +288,66 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background_actual",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "download_Nero_AI_Image_Upscaler_Photo_Face3.jpeg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 600,
+                        "y": 0
+                      },
+                      {
+                        "x": 600,
+                        "y": 336
+                      },
+                      {
+                        "x": 0,
+                        "y": 336
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -295,6 +355,9 @@
     "children": [
       {
         "objectName": "Background"
+      },
+      {
+        "objectName": "Background_actual"
       },
       {
         "objectName": "Tilte"
