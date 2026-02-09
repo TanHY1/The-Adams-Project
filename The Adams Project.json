@@ -1473,6 +1473,17 @@
         "name": "pin hint.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Goldman-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/21bcfe4bb1045b82ecde51b2c493fc80da9496fb2f12e2e874a799d97505b795_Goldman-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -1892,6 +1903,16 @@
       "name": "IsTimerRunning",
       "type": "boolean",
       "value": true
+    },
+    {
+      "name": "typedPassword",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "CorrectDesktopPW",
+      "type": "string",
+      "value": "200814"
     }
   ],
   "layouts": [

@@ -20,23 +20,13 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3768772036750883,
+    "zoomFactor": 0.27962265218393817,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [
-    {
-      "name": "typedPassword",
-      "type": "string",
-      "value": "\"\""
-    },
-    {
-      "name": "CorrectPassword",
-      "type": "string",
-      "value": "200814"
-    },
     {
       "name": "isTyping",
       "type": "boolean",
@@ -377,7 +367,7 @@
         "placeholder": "Enter a password",
         "fontResourceName": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
         "fontSize": 30,
-        "inputType": "password",
+        "inputType": "text",
         "textColor": "0;0;0",
         "fillColor": "255;255;255",
         "fillOpacity": 255,
@@ -752,63 +742,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "AnyKeyPressed"
-          },
-          "parameters": [
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "LastPressedKey()",
-                "=",
-                "\"Backspace\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "LastPressedKey()",
-                "=",
-                "\"Shift\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "BuiltinCommonInstructions::CompareStrings"
-              },
-              "parameters": [
-                "LastPressedKey()",
-                "=",
-                "\"Return\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
@@ -816,20 +750,8 @@
           },
           "parameters": [
             "typedPassword",
-            "+",
-            "LastPressedKey()"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "keyboardd typing sound.wav",
-            "",
-            "80",
-            ""
+            "=",
+            "Desktop_Password.Text::Value()"
           ]
         }
       ]
@@ -891,97 +813,49 @@
         },
         {
           "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "typedPassword",
+            "=",
+            "CorrectDesktopPW"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
         }
       ],
-      "actions": [],
-      "events": [
+      "actions": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "typedPassword",
-                "=",
-                "\"200814\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Desktop home screen\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "successfinish-ui-sound-effect-467873.mp3",
-                "",
-                "50",
-                "0.5"
-              ]
-            }
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "successfinish-ui-sound-effect-467873.mp3",
+            "",
+            "50",
+            "0.5"
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "typedPassword",
-                "!=",
-                "CorrectPassword"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "",
-                "\"Login fail\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringVariable"
-              },
-              "parameters": [
-                "typedPassword",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "wrong-47985.mp3",
-                "",
-                "30",
-                "0.5"
-              ]
-            }
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Desktop home screen\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Desktop_Password"
           ]
         }
       ]
@@ -991,31 +865,82 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Not"
+            "value": "MouseButtonFromTextReleased"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "StringVariable"
-              },
-              "parameters": [
-                "typedPassword",
-                "=",
-                "\"\""
-              ]
-            }
+          "parameters": [
+            "",
+            "\"Left\""
           ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Login_button",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StringVariable"
+          },
+          "parameters": [
+            "typedPassword",
+            "!=",
+            "CorrectDesktopPW"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "HideLayer"
+            "value": "ShowLayer"
           },
           "parameters": [
             "",
             "\"Login fail\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "wrong-47985.mp3",
+            "",
+            "30",
+            "0.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "typedPassword",
+            "=",
+            "\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Desktop_Password",
+            "Text",
+            "=",
+            "\"\""
           ]
         }
       ]
