@@ -396,6 +396,74 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "Desktop screen",
+      "name": "Dynamite",
+      "persistentUuid": "a78b289c-b9a0-44ba-b820-c3c2c5d6b63f",
+      "width": 129,
+      "x": 382,
+      "y": 805,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "Desktop screen",
+      "name": "Dynamite",
+      "persistentUuid": "71feef3f-8df0-4c5a-9404-5c7828ec3035",
+      "width": 129,
+      "x": 956,
+      "y": 751,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "Desktop screen",
+      "name": "Dynamite",
+      "persistentUuid": "83c1aa0c-e070-4123-9ea4-6887f5102ccd",
+      "width": 129,
+      "x": 1072,
+      "y": 752,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 139,
+      "keepRatio": true,
+      "layer": "Desktop screen",
+      "name": "Dynamite",
+      "persistentUuid": "e2f2c3f6-c205-489d-bfad-4c6a2e10b8e6",
+      "width": 129,
+      "x": 1635,
+      "y": 754,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1312,6 +1380,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dynamite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dynamite-bomb-explosive-device-3d-260nw-1430144678-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 111
+                      },
+                      {
+                        "x": 259,
+                        "y": 111
+                      },
+                      {
+                        "x": 259,
+                        "y": 169
+                      },
+                      {
+                        "x": 10,
+                        "y": 169
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1361,6 +1489,9 @@
       },
       {
         "objectName": "Arrow"
+      },
+      {
+        "objectName": "Dynamite"
       }
     ]
   },
