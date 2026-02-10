@@ -1711,7 +1711,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "Default",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1753,7 +1753,19 @@
                       }
                     ]
                   ]
-                },
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hover",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Tips point.png",
