@@ -72,8 +72,8 @@
       "name": "CustomCursor",
       "persistentUuid": "78878f8e-5ede-42b8-8f6c-29b916f207a1",
       "width": 54,
-      "x": 748,
-      "y": 369,
+      "x": 914,
+      "y": 306,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -150,7 +150,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "notebook diary.png",
+                  "image": "notebook diary2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -170,16 +170,16 @@
                         "y": 0
                       },
                       {
-                        "x": 2528,
+                        "x": 2816,
                         "y": 0
                       },
                       {
-                        "x": 2528,
-                        "y": 1696
+                        "x": 2816,
+                        "y": 1536
                       },
                       {
                         "x": 0,
-                        "y": 1696
+                        "y": 1536
                       }
                     ]
                   ]
@@ -389,7 +389,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Cursor",
+      "name": "Timer",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -443,7 +443,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Timer",
+      "name": "Cursor",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

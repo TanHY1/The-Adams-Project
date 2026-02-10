@@ -1508,6 +1508,14 @@
         "name": "dynamite-bomb-explosive-device-3d-260nw-1430144678-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "notebook diary2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "notebook diary2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1713,6 +1721,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Normal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 75,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 36
+                      },
+                      {
+                        "x": 249,
+                        "y": 313
+                      },
+                      {
+                        "x": 75,
+                        "y": 313
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Tips point.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
