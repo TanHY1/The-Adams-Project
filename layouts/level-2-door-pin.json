@@ -1678,7 +1678,7 @@
           "parameters": [
             "GlobalTimer",
             "-",
-            "5"
+            "10"
           ]
         }
       ]
