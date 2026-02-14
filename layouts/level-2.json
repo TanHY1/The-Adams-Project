@@ -1813,6 +1813,7 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "IsCursorOnObject"
               },
               "parameters": [
