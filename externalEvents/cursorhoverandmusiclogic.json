@@ -12,7 +12,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Custom Cursor Hovering Logic"
+      "comment": "Custom Cursor Follow Logic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

@@ -175,6 +175,18 @@
       "target": "CursorHoverandMusicLogic"
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Return button to previous scenes"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {

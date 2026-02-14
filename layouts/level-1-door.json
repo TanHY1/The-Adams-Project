@@ -1225,6 +1225,18 @@
   },
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Reset variable at the start"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1266,7 +1278,7 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "Return logic"
+      "comment": "Return to previous scene"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1379,6 +1391,18 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Reset the keypad"
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1432,6 +1456,18 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Comparison with the correct code, if correct, proceed to winning scene"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1562,11 +1598,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [

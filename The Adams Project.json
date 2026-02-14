@@ -2085,6 +2085,18 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-book-under-bed"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-notes"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-calendar-clues"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1-door"
     },
     {
@@ -2098,18 +2110,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/losescreen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1-book-under-bed"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1-notes"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level-1-calendar-clues"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
