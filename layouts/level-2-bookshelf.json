@@ -359,15 +359,6 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextReleased"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        },
-        {
-          "type": {
             "value": "IsCursorOnObject"
           },
           "parameters": [
@@ -388,16 +379,6 @@
             "Animation",
             "=",
             "\"Hover\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Level 2 Bookshelf file\"",
-            ""
           ]
         }
       ]
@@ -434,8 +415,40 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "File",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 2 Bookshelf file\"",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
