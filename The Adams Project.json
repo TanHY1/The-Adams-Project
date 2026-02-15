@@ -1516,6 +1516,22 @@
         "name": "notebook diary2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "notebook diary 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "notebook diary 1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pen dragable hint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pen dragable hint.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2118,6 +2134,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-2-drawer"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dragable-hint"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
